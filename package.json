@@ -1,0 +1,22 @@
+{
+  "name": "meloverse-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MeloVerse backend: auth, library, comments, sources, scraper engine, admin room",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "seed": "node src/seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.3.0",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
